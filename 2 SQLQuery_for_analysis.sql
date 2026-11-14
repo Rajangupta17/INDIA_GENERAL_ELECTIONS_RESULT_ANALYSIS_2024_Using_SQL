@@ -1,6 +1,6 @@
 ---FIND THE TOTAL NUMBER OF SEATS
 SELECT 
-DISTINCT COUNT(Parliament_Constituency) AS Total_Seats
+COUNT(DISTINCT Parliament_Constituency) AS Total_Seats
 FROM constituencywise_results
 
 ---What are the total number of seats avilable for Elections in each state
